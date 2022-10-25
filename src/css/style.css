@@ -1,0 +1,99 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  color: hsl(228, 12%, 48%);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.card .picture-card .product-img {
+  height: 100%;
+  max-width: 300px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.card-info {
+  background-color: hsl(0, 0%, 100%);
+  padding: 33px 33px 33px 33px;
+  border-radius: 0px 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-info .product-name {
+  font-size: 32px;
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  color: hsl(212, 21%, 14%);
+}
+
+.card-info .product-type {
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.card .card-info p {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.card-info .price .promo-price {
+  font-size: 33px;
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%)
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-info .price .old-price {
+  text-decoration: line-through;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card .card-info .cart-btn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: hsl(158, 36%, 37%);
+  padding: 14px 0;
+  border-radius: 10px;
+  border-style: none;
+  width: 100%;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: white;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.card .card-info .cart-btn:hover {
+  background-color: hsl(212, 21%, 14%);
+}
+
+.attribution {
+  text-align: center;
+}

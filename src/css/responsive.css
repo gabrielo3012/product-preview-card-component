@@ -1,0 +1,30 @@
+@media(max-width: 768px) {
+  .card {
+    max-width: 580px;
+  }
+
+  .card .product-img {
+    max-width: 100%px;
+  }
+}
+
+@media(max-width: 475px) {
+  .card {
+    flex-direction: column;
+    width: 375px;
+    height: 600px;
+    margin: 10px;
+  }
+
+  .card .picture-card .product-img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .card .card-info {
+    border-radius: 0 0 10px 10px;
+    gap: 10px;
+  }
+
+}
